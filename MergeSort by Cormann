@@ -1,4 +1,4 @@
-def merge_sort(A, p, r):#checking
+def merge_sort(A, p, r):#checking#doublechecking
     if (p < r):
         q = (p + r) // 2
         merge_sort(A, p, q)
